@@ -6,7 +6,7 @@ import zipfile
 
 app = Flask(__name__)
 
-PEXELS_API_KEY = '7m5WnSwWFeWh5aOHvfeI3rmXls6NNStegUMUrwc0DmaQkvtFPUoeYIrN'  # Replace with your actual Pexels API key
+PEXELS_API_KEY = '7m5WnSwWFeWh5aOHvfeI3rmXls6NNStegUMUrwc0DmaQkvtFPUoeYIrN' #  Replace with your actual Pexels API key
 
 def download_images(query, num_images):
     # Construct the Pexels search URL
